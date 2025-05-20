@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Gabriel</title>
+    <link rel="stylesheet" href="code/css/style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Gabriel</div>
+      <div class="burger" id="burger">
+        <div class="bar top-bar"></div>
+        <div class="bar middle-bar"></div>
+        <div class="bar bottom-bar"></div>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">A propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#welcome-section">Accueil</a></li>
+      </ul>
+    </nav>
+
+    <header id="welcome-section">
+      <h1>Bonjour ! Je m'appelle Gabriel Vernat</h1>
+      <p>Et je suis développeur web, si tu as besoin d'un site web</p>
+      
+      <a class="t" href="#contact" id="réseaux">Contactes moi !</a>
+      <a href="#projets" id="scroll-down" address="true"></a>
+    </header>
+
+    <main>
+      <section class="section" id="about">
+        <h2 class="section-title" data-aos="fade-down">A propos</h2>
+        <div class="about-content">
+          <div>
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4E03AQHmovVVuTDgjA/profile-displayphoto-shrink_800_800/B4EZTHkXRKHgAc-/0/1738514989870?e=1752105600&v=beta&t=jfZTpyWD0nq64HnUWTVIvWWckbbDNtgYFQSDD8lVc2Q"
+              alt="Gabriel Vernat"
+              class="about-image"
+              data-aos="zoom-in"
+            />
+          </div>
+          <div class="moi" data-aos="fade-up">
+            <h3>Qui suis-je?</h3>
+            <p>
+              Je suis développeur web full-stack avec 1 an d'expérience, je suis
+              spécialisé en CSS et JS.
+            </p>
+            <p>
+              Ma passion est de créer des expériences utilisateur intuitives
+              avec un code clair et efficace. J'aime m'attaquer à des problèmes
+              complexes et concrétiser mes idées.
+            </p>
+            <h3 style="margin-top: 2rem">Mes compétences</h3>
+            <div class="skills">
+              <span class="skill">HTML5</span>
+              <span class="skill">CSS3</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">React.JS</span>
+            </div>
+          </div>
+        </div>
+        <div id="projets"></div>
+      </section>
+
+      <section data-aos="fade-up">
+        <h2 class="moove">Projets</h2>
+        <div class="projects-container">
+          <a href="" target="_blank" class="project-tile">
+            <img
+              src="https://alexsoyes.com/wp-content/uploads/2022/03/setup-bureau-developpeur-linux-912x668.jpg"
+              alt="Tribute Page"
+            />
+            <p>Test</p>
+          </a>
+
+          <a href="" target="_blank" class="project-tile">
+            <img
+              src="https://alexsoyes.com/wp-content/uploads/2022/03/setup-bureau-developpeur-linux-912x668.jpg"
+              alt="Survey Form"
+            />
+            <p>Test</p>
+          </a>
+
+          <a class="project-tile">
+            <img
+              src="https://alexsoyes.com/wp-content/uploads/2022/03/setup-bureau-developpeur-linux-912x668.jpg"
+              alt="Catto"
+            />
+            <p>Test</p>
+          </a>
+
+          <a class="project-tile">
+            <img
+              src="https://alexsoyes.com/wp-content/uploads/2022/03/setup-bureau-developpeur-linux-912x668.jpg"
+              alt="cute white dog"
+            />
+            <p>Test</p>
+          </a>
+
+          <a class="project-tile">
+            <img
+              src="https://alexsoyes.com/wp-content/uploads/2022/03/setup-bureau-developpeur-linux-912x668.jpg"
+              alt="Cute Samoyed"
+            />
+            <p>Test</p>
+          </a>
+
+          <a class="project-tile">
+            <img
+              src="https://alexsoyes.com/wp-content/uploads/2022/03/setup-bureau-developpeur-linux-912x668.jpg"
+              alt="Grey hamster"
+            />
+            <p>Test</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" data-aos="zoom-in">
+        <div class="form-container">
+          <h2>Envoies moi un message</h2>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="full-name">Nom et Prénom</label>
+              <input type="text" id="full-name" name="full_name" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Ton email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Ecris ton messages..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-button">
+              <span>Envoyer</span>
+            </button>
+          </form>
+        </div>
+      </section>
+      <section id="social" class="bg-pinkish">
+        <h2>Contact :</h2>
+        <ul class="social-ul">
+          <li>mail: vernatgabriel37@gmail.com</li>
+          <li>numéro: 0785291004</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>Réalisé par Gabriel</footer>
+
+    <script>
+      const burger = document.getElementById("burger");
+      const navLinks = document.getElementById("nav-links");
+      const links = navLinks.querySelectorAll("a");
+
+      // Ouvre/ferme le menu quand on clique sur le burger
+      burger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        burger.classList.toggle("open");
+      });
+
+      // Ferme le menu quand on clique sur un lien
+      links.forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+          burger.classList.remove("open");
+        });
+      });
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
