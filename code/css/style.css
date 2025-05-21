@@ -22,7 +22,7 @@ nav {
   width: 100%;
   top: 0;
   z-index: 1000;
-}
+} 
 
 .logo {
   font-weight: bold;
@@ -282,7 +282,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
 }
 
 .form-container {
