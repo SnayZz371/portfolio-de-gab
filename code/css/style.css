@@ -538,5 +538,16 @@ html {
         width: 250px;
         padding: 10px;
     }
-    
+  .section-title{
+    font-size: 20px;
+  }
+  .moi h3{
+    font-size: 15px;
+  }
+  .moi p{
+    font-size: 13px;
+  }
+  .skills{
+    font-size: 10px;
+  }
 }
